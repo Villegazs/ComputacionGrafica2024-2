@@ -24,6 +24,11 @@ https://github.com/user-attachments/assets/14237866-7cc3-4139-8310-756b0326a88e
 
 ![ComputacionGrafica2024-2-Effect2TestEscene-WindowsMacLinux-Unity2022 3 41f1__DX11_2024-09-2015-44-16-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/30dfc80d-fbb6-4457-b6ba-8fa842c8f11d)
 
+Para los rayos que caen en espiral se utilizó el siguiente shader:
+
+![image](https://github.com/user-attachments/assets/671ed6ff-6fd9-4421-a6ce-e97d475d48b0)
+
+
 
 ### VFX 2:
 Se busca generar un vórtice, el cual se implementó a traves de cuatro sistemas de párticulas en Shuriken.
