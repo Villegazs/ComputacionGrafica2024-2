@@ -57,7 +57,7 @@ Las texturas utilizadas fueron las siguientes para conseguir esos efectos:
 ## Ejercicio 3 - Shaders
 
 ### Mascara Radial
-Para este efecto se crearon dos versiones, con shaders diferentes, que ofrecen resultados ligeramente diferentes. Para la primera version se uso el fresnel effect y el smoothstep y para la segunda version la mascara se hizo por medio de coordenadas polares y un smoothstep.
+Para este efecto se crearon dos versiones, con shaders diferentes, que ofrecen resultados ligeramente diferentes. Para la primera version se uso el fresnel effect y el smoothstep y para la segunda version la mascara se hizo por medio de coordenadas polares y un smoothstep. El remap lo usamos para invertir los valores de entrada, asi en la interfaz del material un MaskSmoothness de 0 dara como resultado un borde bien definido, y un MaskSmoothness de 1 dara como resultado un circulo bastante difuminado.
 
 #### V1
 ![Vídeo sin título ‐ Hecho con Clipchamp (1)](https://github.com/user-attachments/assets/210d7883-9c98-481d-84c1-50c12a4104f2)
@@ -73,6 +73,8 @@ Para este efecto se crearon dos versiones, con shaders diferentes, que ofrecen r
 
 
 ### Disolver Textura Pre Creada
+Este shader se  divide en dos partes, el cambio de color de la texutra y la disolucion de la textura, la parte del color es muy sencilla simplemente la textura se multiplica por un color, por el lado de la disolucion lo complicado fue lograr que se disolviera de afuera hacia adentro, para eso empleamos el one minus, que logra invertir los colores, y el smoothstep nos ayuda a disolver la textura, por ultimo el remap lo usamos para invertir los valores de entrada, asi en la interfaz del material una disolucion de 0 no afectara la texutura, y una de 1 disolvera la textura por completo.
+
 
 ![Vídeo sin título ‐ Hecho con Clipchamp (3)](https://github.com/user-attachments/assets/3710bb81-78f2-4101-8a93-a895a9369645)
 
