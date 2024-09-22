@@ -114,10 +114,25 @@ Este shader se  divide en dos partes, el cambio de color de la texutra y la diso
 ### Jacobo Prada
 ### Erosión: disolver con ruido
 
+
+
+https://github.com/user-attachments/assets/1675d3c5-f5ab-4853-86a3-208097f5b5d7
+
+
+
+
+https://github.com/user-attachments/assets/1aac0559-9d13-4fb1-a293-2728d84e360e
+
+
+
+
 ![image](https://github.com/user-attachments/assets/fa6242f4-5ec2-4f77-a2db-8e0668c886b5)
 
 
 ### Coordenadas UV procedurales: Coordenadas polares
+
+![ComputacionGrafica2024-2-TestingEviroment-WindowsMacLinux-Unity2022 3 41f1_DX11_2024-09-2214-19-19-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/1a9f0cdb-4ad9-48c0-87f3-39282ea3589a)
+
 
 ![image](https://github.com/user-attachments/assets/4848d276-f3da-426a-9d00-8bffaa0e0a04)
 
