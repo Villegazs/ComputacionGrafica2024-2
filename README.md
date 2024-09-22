@@ -111,3 +111,11 @@ Este shader se  divide en dos partes, el cambio de color de la texutra y la diso
 
 ![image](https://github.com/user-attachments/assets/f512b61b-4172-455a-bb55-da8c10f8903b)
 
+### Jacobo Prada
+### Erosión: disolver con ruido
+
+### Coordenadas UV procedurales: Coordenadas polares
+
+
+
+
