@@ -50,3 +50,23 @@ Las texturas utilizadas fueron las siguientes para conseguir esos efectos:
 ### Nota: En todos los sistemas de partículas de este VFX se usó un shaderGraph que permitiera el uso de colores con HDR para representar esa iluminosidad
 
 ![Captura de pantalla 2024-09-16 175113](https://github.com/user-attachments/assets/33d82dc7-ceaa-4ac7-81b4-4e6eb964384a)
+
+
+
+
+## Ejercicio 3 - Shaders
+
+### Mascara Radial
+Para este efecto se crearon dos versiones, con shaders diferentes, que ofrecen resultados ligeramente diferentes. Para la primera version se uso el fresnel effect y el smoothstep y para la segunda version la mascara se hizo por medio de coordenadas polares y un smoothstep.
+
+#### V1
+![Vídeo sin título ‐ Hecho con Clipchamp (1)](https://github.com/user-attachments/assets/210d7883-9c98-481d-84c1-50c12a4104f2)
+
+![image](https://github.com/user-attachments/assets/796858a3-bc8a-4340-9069-7a2ec1a0bdee)
+
+
+#### V2
+![Vídeo sin título ‐ Hecho con Clipchamp (2)](https://github.com/user-attachments/assets/65087ef0-262b-440c-be47-4bbecd8273aa)
+
+![image](https://github.com/user-attachments/assets/62af97de-0e0d-41a4-b907-71bd10db5ce2)
+
