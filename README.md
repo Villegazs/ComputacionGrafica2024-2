@@ -117,5 +117,21 @@ Este shader se  divide en dos partes, el cambio de color de la texutra y la diso
 ### Coordenadas UV procedurales: Coordenadas polares
 
 
+## Alejandro Villegas Morales
+### Distorsión 
+Para este shader, me base en el Screen Space refraction que fue utilizado en el Force Shield, Para el offset a la uvs hice un swizzle que tomara "x" y "y" y luego sumar un vector 2 que representaría el movimiento de ese offset, ya para el tilling use una multiplicación de cuantas subdivisiones necesitaba y pasa por el nodo fraction, lo que ayuda a fraccionar esa textura tanto en "x" como en "y".
+
+https://github.com/user-attachments/assets/0ac84b2c-b3d4-446a-9836-1f42fc450417
+
+![Captura de pantalla 2024-09-22 132956](https://github.com/user-attachments/assets/4a918c42-1e03-40ce-91fc-436881fd40c2)
+![Captura de pantalla 2024-09-22 133031](https://github.com/user-attachments/assets/dac8eb25-1639-4d9d-a5b8-57a411dba3b3)
+
+### Movimiento de Humo
+Para este efecto, el tilling, el offset y la velocidad se aplican de igual manera que el anterior ejercicio. Ya para conseguir el efecto de transparencia, se hizo el uso de una máscara el cual a través de un producto punto en la textura de la normal se obtenía la textura en escala de grises, luego se normalizaba los valores de esta textura con un clamp y, por último, a través de un split se obtenía el valor del alpha y este se conectaba para obtener la transparencia.
+
+https://github.com/user-attachments/assets/738b6168-53d2-4955-bfa7-80cc062eac8c
+
+![Captura de pantalla 2024-09-22 134143](https://github.com/user-attachments/assets/27d17fd8-080c-45c5-baf3-724b04e2e682)
+![Captura de pantalla 2024-09-22 134202](https://github.com/user-attachments/assets/7ec076a1-b722-4915-9555-409014d6f4b2)
 
 
