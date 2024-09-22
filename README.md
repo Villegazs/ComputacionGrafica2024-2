@@ -76,5 +76,5 @@ Para este efecto se crearon dos versiones, con shaders diferentes, que ofrecen r
 
 ![Vídeo sin título ‐ Hecho con Clipchamp (3)](https://github.com/user-attachments/assets/3710bb81-78f2-4101-8a93-a895a9369645)
 
-
+![image](https://github.com/user-attachments/assets/f512b61b-4172-455a-bb55-da8c10f8903b)
 
