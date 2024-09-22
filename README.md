@@ -70,3 +70,11 @@ Para este efecto se crearon dos versiones, con shaders diferentes, que ofrecen r
 
 ![image](https://github.com/user-attachments/assets/62af97de-0e0d-41a4-b907-71bd10db5ce2)
 
+
+
+### Disolver Textura Pre Creada
+
+![Vídeo sin título ‐ Hecho con Clipchamp (3)](https://github.com/user-attachments/assets/3710bb81-78f2-4101-8a93-a895a9369645)
+
+
+
