@@ -87,6 +87,7 @@ Finalmente se creo un efecto de rastro de luz, para esto se uso un particle syst
 
 ## Ejercicio 3 - Shaders
 
+## Santiago Cárdenas
 ### Mascara Radial
 Para este efecto se crearon dos versiones, con shaders diferentes, que ofrecen resultados ligeramente diferentes. Para la primera version se uso el fresnel effect y el smoothstep y para la segunda version la mascara se hizo por medio de coordenadas polares y un smoothstep. El remap lo usamos para invertir los valores de entrada, asi en la interfaz del material un MaskSmoothness de 0 dara como resultado un borde bien definido, y un MaskSmoothness de 1 dara como resultado un circulo bastante difuminado.
 
@@ -111,19 +112,11 @@ Este shader se  divide en dos partes, el cambio de color de la texutra y la diso
 
 ![image](https://github.com/user-attachments/assets/f512b61b-4172-455a-bb55-da8c10f8903b)
 
-### Jacobo Prada
+## Jacobo Prada
 ### Erosión: disolver con ruido
 
-
-
-https://github.com/user-attachments/assets/1675d3c5-f5ab-4853-86a3-208097f5b5d7
-
-
-
-
-https://github.com/user-attachments/assets/1aac0559-9d13-4fb1-a293-2728d84e360e
-
-
+![ComputacionGrafica2024-2-TestingEviroment-WindowsMacLinux-Unity2022 3 41f1_DX11_2024-09-2214-21-09-Trim1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/253a5657-1b38-4c01-bbb9-7feb3091576b)
+![ComputacionGrafica2024-2-TestingEviroment-WindowsMacLinux-Unity2022 3 41f1_DX11_2024-09-2214-21-09-Trim2-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/43a66749-860b-4e29-8ecb-2d3b193c5a08)
 
 
 ![image](https://github.com/user-attachments/assets/fa6242f4-5ec2-4f77-a2db-8e0668c886b5)
