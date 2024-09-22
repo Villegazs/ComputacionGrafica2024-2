@@ -52,6 +52,37 @@ Las texturas utilizadas fueron las siguientes para conseguir esos efectos:
 ![Captura de pantalla 2024-09-16 175113](https://github.com/user-attachments/assets/33d82dc7-ceaa-4ac7-81b4-4e6eb964384a)
 
 
+### VFX3:
+![Vídeo sin título ‐ Hecho con Clipchamp (6)](https://github.com/user-attachments/assets/321da79a-6f44-48a5-a8d6-09985a3d352d)
+
+
+Para este efecto necesitamos crear como una rafaga de ondas, que se disipen al final. Para este efecto la mayor parte fue usando el particle system. Primero se empezo con modelo 3D sencillo de la forma de la onda
+
+
+![Vídeo sin título ‐ Hecho con Clipchamp (5)](https://github.com/user-attachments/assets/81dee4be-5161-4f81-b67b-3feeb3cbb03b)
+
+![image](https://github.com/user-attachments/assets/7bfc6b8c-c28e-4a18-bad3-f656c9240593)
+![Screenshot 2024-09-21 231553](https://github.com/user-attachments/assets/cff0c68d-3c33-4763-a2d6-6a99ff2083ab)
+
+Luego se cre un pequeño shader para el material de la onda.
+
+![Screenshot 2024-09-21 231357](https://github.com/user-attachments/assets/d1eabd02-abc9-4f64-a51e-5fe0ccc1d2bd)
+
+Posteriormente se creo el particle system, se cambio el mesh, se le asigno el material, se ajustaron valores de cambio de color y tamaño por medio de curvas.
+
+Luego se hizo otro particle system para las particulas alargadas que salen en la direccion de la onda. Para esta tambien se uso un pequeño shader y una textura de particula. 
+
+![Vídeo sin título ‐ Hecho con Clipchamp (7)](https://github.com/user-attachments/assets/cc3bcd16-1cc2-403b-8c2a-122d8ab074fe)
+
+
+![Flare00](https://github.com/user-attachments/assets/5a1a6ea9-f5c2-41e0-a6e5-9691a9030f0f)
+![image](https://github.com/user-attachments/assets/bdb5773b-83a2-4161-bb69-886a4dbe497a)
+
+
+Finalmente se creo un efecto de rastro de luz, para esto se uso un particle system, se uso el billboard y se justo el tamaño inicial para que fueran mas alargadas y que pareciera que estaban sobre el suelo, posteriormente se generaban varias particulas una detras de otra para que generaran continuidad. Por ultimo se duplico ese particle system, las particulas se hicieron mas anchas y se les cambio el color a negro para dar profundidad. Cabe mencionar que usan el mismo material que las particulas anteriores.
+
+![Vídeo sin título ‐ Hecho con Clipchamp (4)](https://github.com/user-attachments/assets/6eb38a4f-8270-4433-bebd-d250fda95789)
+
 
 
 ## Ejercicio 3 - Shaders
