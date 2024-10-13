@@ -18,7 +18,7 @@ void GetMainLightInfo_float(float3 positionWS, out float3 direction, out half3 c
     float4 shadowCoord = TransformWorldToShadowCoord(positionWS);
     ShadowSamplingData samplingData = GetMainLightShadowSamplingData();
     float shadowStrength = GetMainLightShadowStrength();
-    shadowAttenuation = SampleShadowmap(shadowCoord, TEXTURE2D_ARGS(_MainLightShadowmapTexture, sampler_MainLightShadowmapTexture, samplingData, shadowStrength, false));
+    shadowAttenuation = SampleShadowmap(shadowCoord, TEXTURE2D_ARGS(_MainLightShadowmapTexture, sampler_MainLightShadowmapTexture), samplingData, shadowStrength, false);
     #endif
 }
 void ComputeAdditionalLightingToon_float(float3 normalWS, float3 positionWS, UnityTexture2D toonRamp, UnitySamplerState sState, float viewDirWS, float specularHardness
