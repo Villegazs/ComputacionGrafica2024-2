@@ -68,7 +68,22 @@
             "m_Id": "3f51565ea019434daeb4f494e1bf545d"
         },
         {
+            "m_Id": "308e201ec77e421780ebc219e13b63c8"
+        },
+        {
             "m_Id": "6cb91916c1974747b5f7bf1ae8f52e93"
+        },
+        {
+            "m_Id": "2894159cd7914777a88cd10ca6dbd36c"
+        },
+        {
+            "m_Id": "1c992ccc628a4475b386b469df8e8ded"
+        },
+        {
+            "m_Id": "ab0d863479884b93b4ab163b37d73c1a"
+        },
+        {
+            "m_Id": "60a14ed7d22c4da3b7ba68c8a30e44bd"
         }
     ],
     "m_Nodes": [
@@ -1425,6 +1440,27 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "1c992ccc628a4475b386b469df8e8ded",
+    "m_Name": "Foam",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "8efff978426341d8b6585d74a6d56f6a"
+        },
+        {
+            "m_Id": "fecec903018945c894efbb42fffa945d"
+        },
+        {
+            "m_Id": "745df17c4c13492088a162f5509bb413"
+        },
+        {
+            "m_Id": "4e5aa0592fd44351855ef3a12309cafd"
+        }
+    ]
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "1e523052bf0a460490d4897f82f86319",
     "m_Id": 1,
@@ -1617,6 +1653,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "2894159cd7914777a88cd10ca6dbd36c",
+    "m_Name": "Cubemap",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "977b9480c326438eb5b13316f9b0ee92"
+        },
+        {
+            "m_Id": "b83c9739938b490887ff02ea84b87678"
+        }
+    ]
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "2c6b9fe582d44a7a89c0635c84b4c80c",
     "m_Group": {
@@ -1649,6 +1700,24 @@
     "m_Property": {
         "m_Id": "14b6f27f2b2043289cb096e3807ed1fb"
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "308e201ec77e421780ebc219e13b63c8",
+    "m_Name": "Colors",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "cb5416c856f9417192292ee31ad1317f"
+        },
+        {
+            "m_Id": "19dba8a49da647ac8df3377d8c5771fe"
+        },
+        {
+            "m_Id": "759f835bca16458685dfc7c32929d76b"
+        }
+    ]
 }
 
 {
@@ -1948,59 +2017,7 @@
     "m_Type": "UnityEditor.ShaderGraph.CategoryData",
     "m_ObjectId": "3f51565ea019434daeb4f494e1bf545d",
     "m_Name": "",
-    "m_ChildObjectList": [
-        {
-            "m_Id": "cb5416c856f9417192292ee31ad1317f"
-        },
-        {
-            "m_Id": "19dba8a49da647ac8df3377d8c5771fe"
-        },
-        {
-            "m_Id": "759f835bca16458685dfc7c32929d76b"
-        },
-        {
-            "m_Id": "c2076896130a4728bc82424fcbc69f5b"
-        },
-        {
-            "m_Id": "675575870603430396baadeb90a13563"
-        },
-        {
-            "m_Id": "14b6f27f2b2043289cb096e3807ed1fb"
-        },
-        {
-            "m_Id": "e3f2d2febd0e434b871eab7e5adf3b95"
-        },
-        {
-            "m_Id": "8efff978426341d8b6585d74a6d56f6a"
-        },
-        {
-            "m_Id": "fecec903018945c894efbb42fffa945d"
-        },
-        {
-            "m_Id": "745df17c4c13492088a162f5509bb413"
-        },
-        {
-            "m_Id": "4e5aa0592fd44351855ef3a12309cafd"
-        },
-        {
-            "m_Id": "ea96ebf32cdc4217b2778112681e4225"
-        },
-        {
-            "m_Id": "ace6b68728c54112a5d095813a31d70b"
-        },
-        {
-            "m_Id": "977b9480c326438eb5b13316f9b0ee92"
-        },
-        {
-            "m_Id": "b83c9739938b490887ff02ea84b87678"
-        },
-        {
-            "m_Id": "b38b02b6846a4b8982ab363c8c32db2a"
-        },
-        {
-            "m_Id": "ac189a276dfb4705a6ccdfe70f8bb2fe"
-        }
-    ]
+    "m_ChildObjectList": []
 }
 
 {
@@ -2612,6 +2629,30 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "60a14ed7d22c4da3b7ba68c8a30e44bd",
+    "m_Name": "Water Caracteristics",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "c2076896130a4728bc82424fcbc69f5b"
+        },
+        {
+            "m_Id": "675575870603430396baadeb90a13563"
+        },
+        {
+            "m_Id": "14b6f27f2b2043289cb096e3807ed1fb"
+        },
+        {
+            "m_Id": "e3f2d2febd0e434b871eab7e5adf3b95"
+        },
+        {
+            "m_Id": "b38b02b6846a4b8982ab363c8c32db2a"
+        }
+    ]
 }
 
 {
@@ -4286,6 +4327,24 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "ab0d863479884b93b4ab163b37d73c1a",
+    "m_Name": "BlinnPhong",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "ea96ebf32cdc4217b2778112681e4225"
+        },
+        {
+            "m_Id": "ace6b68728c54112a5d095813a31d70b"
+        },
+        {
+            "m_Id": "ac189a276dfb4705a6ccdfe70f8bb2fe"
+        }
+    ]
 }
 
 {
