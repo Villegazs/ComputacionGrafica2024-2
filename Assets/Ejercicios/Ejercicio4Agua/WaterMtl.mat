@@ -78,20 +78,20 @@ Material:
     - _Cull: 2
     - _Div_Blinn: 12
     - _DstBlend: 10
-    - _FoamAmount: 1.12
+    - _FoamAmount: 1
     - _FoamCutOff: 1
     - _FoamScale: 100
     - _FoamSpeed: 8
-    - _LOD: 1.93
+    - _LOD: 1.62
     - _Opacity: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RefractionScale: 2
-    - _RefractionSpeed: 0.3
-    - _RefractionStrength: 0.01
+    - _RefractionScale: 2.85
+    - _RefractionSpeed: 0.24
+    - _RefractionStrength: 0.001
     - _Smoothness: 1
     - _SpecularHardness: 0
-    - _Speed_Waves: 1
+    - _Speed_Waves: 0.5
     - _SrcBlend: 5
     - _Surface: 1
     - _WaterDepth: 10
