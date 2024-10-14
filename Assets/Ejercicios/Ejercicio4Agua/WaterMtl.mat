@@ -72,22 +72,26 @@ Material:
     m_Floats:
     - _AlphaClip: 0
     - _AlphaToMask: 0
+    - _Amplitud_waves: 5
     - _Blend: 0
     - _CastShadows: 1
-    - _Cull: 0
+    - _Cull: 2
+    - _Div_Blinn: 12
     - _DstBlend: 10
     - _FoamAmount: 1
     - _FoamCutOff: 1
     - _FoamScale: 50
-    - _FoamSpeed: 1
-    - _LOD: 0.53
+    - _FoamSpeed: 5
+    - _LOD: 1.78
+    - _Opacity: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RefractionScale: 2
-    - _RefractionSpeed: 0.05
+    - _RefractionSpeed: 0.5
     - _RefractionStrength: 0.01
     - _Smoothness: 1
     - _SpecularHardness: 0
+    - _Speed_Waves: 1
     - _SrcBlend: 5
     - _Surface: 1
     - _WaterDepth: 10
