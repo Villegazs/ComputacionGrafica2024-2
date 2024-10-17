@@ -148,4 +148,36 @@ https://github.com/user-attachments/assets/738b6168-53d2-4955-bfa7-80cc062eac8c
 ![Captura de pantalla 2024-09-22 134143](https://github.com/user-attachments/assets/27d17fd8-080c-45c5-baf3-724b04e2e682)
 ![Captura de pantalla 2024-09-22 134202](https://github.com/user-attachments/assets/7ec076a1-b722-4915-9555-409014d6f4b2)
 
+# Actividad #4 Agua
+## Video
+![VideoAgua](https://github.com/user-attachments/assets/2eb6816c-db53-44ec-a860-72c30526d55d)
+
+## Movement
+![Captura de pantalla 2024-10-16 221823](https://github.com/user-attachments/assets/a902393a-85c9-4d7b-ac94-26c3a516827f)
+
+## Water Refraction
+![Captura de pantalla 2024-10-16 221841](https://github.com/user-attachments/assets/487ca490-227c-4691-bd3e-a85bf5e3afd5)
+
+## Displacement
+![Captura de pantalla 2024-10-16 221927](https://github.com/user-attachments/assets/ddc4500f-71ad-4e73-95e6-bcecaf22533c)
+
+## Depth Fade
+![Captura de pantalla 2024-10-16 221951](https://github.com/user-attachments/assets/30785b71-5a25-436b-9339-8eb7eaa8ef21)
+
+## Foam
+![Captura de pantalla 2024-10-16 222016](https://github.com/user-attachments/assets/8fd82c0f-c4bd-4696-9290-027fa9c9ec33)
+
+## Espuma en picos
+![Captura de pantalla 2024-10-16 222040](https://github.com/user-attachments/assets/c5a7f1c0-71c9-46c1-bef3-7d3518225437)
+
+## Cubemap Reflections
+![Captura de pantalla 2024-10-16 222102](https://github.com/user-attachments/assets/623d755e-2908-41b9-b51e-9b1dcfa5ecd5)
+
+## Blinn-phong
+![Captura de pantalla 2024-10-16 222733](https://github.com/user-attachments/assets/185648b4-05d9-472d-8e61-1acf9a8bfe39)
+
+## Shader Completo
+![Captura de pantalla 2024-10-16 222206](https://github.com/user-attachments/assets/0b6b7d21-e62e-45e5-8bf9-ac465c1a1ef9)
+
+
 
