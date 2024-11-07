@@ -15,14 +15,17 @@ public class EffectController : MonoBehaviour
 
     [SerializeField] private PlayableDirector[] directors;
 
+    private void Awake()
+    {
+        foreach (var director in directors)
+        {
+            director.playOnAwake = false;
+            director.Stop();
+        }
+    }
     private void Start()
     {
         pauseButtonText = pauseButton.GetComponentInChildren<TextMeshProUGUI>();
-
-        foreach (var director in directors)
-        {
-            director.Stop();
-        }
 
         // Inicializa el efecto seleccionado.
         if (directors.Length > 0)

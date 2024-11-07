@@ -148,7 +148,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 60259454}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -15647,7 +15647,7 @@ PlayableDirector:
   m_GameObject: {fileID: 618190896}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: b36306ab0e753754ba19730a65f2815e, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 24789b4a51acca5499f37f9fa5401f71, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -15655,9 +15655,14 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 1889559868310154525, guid: b36306ab0e753754ba19730a65f2815e, type: 2}
     value: {fileID: 1710096722}
+  - key: {fileID: 892344111116231824, guid: 24789b4a51acca5499f37f9fa5401f71, type: 2}
+    value: {fileID: 1710096722}
   m_ExposedReferences:
     m_References:
     - 8956fac4bffac184fa1d198c888c840e: {fileID: 1252251586}
+    - 7f976a24881c5cd4fa8eab2d89924c10: {fileID: 1420683477}
+    - eece85053bcd5f846b7f12f0743202be: {fileID: 1252251586}
+    - 0fdd99b753ac487438dcc0f27ac56d25: {fileID: 60259454}
     - 734046812a436fb468f55b22fabc3748: {fileID: 60259454}
     - eb1e8967d69013e44a77abea4b802c36: {fileID: 1420683477}
 --- !u!4 &618190898
@@ -26895,7 +26900,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1420683477}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1

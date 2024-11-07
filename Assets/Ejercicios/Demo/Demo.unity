@@ -5681,8 +5681,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100, y: -30}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 130, y: -30}
+  m_SizeDelta: {x: 220, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &558612174
 MonoBehaviour:
@@ -5734,11 +5734,11 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: VFX 1
+    - m_Text: Invoke Magic Staff
       m_Image: {fileID: 0}
     - m_Text: VFX 2
       m_Image: {fileID: 0}
-    - m_Text: VFX 3
+    - m_Text: Magic Atack
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5757,7 +5757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5798,7 +5798,7 @@ MonoBehaviour:
   pauseButton: {fileID: 1330928139}
   directors:
   - {fileID: 618190897}
-  - {fileID: 618190897}
+  - {fileID: 1799173375}
   - {fileID: 26202978}
 --- !u!1 &618190896
 GameObject:
@@ -5826,7 +5826,7 @@ PlayableDirector:
   m_GameObject: {fileID: 618190896}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: b36306ab0e753754ba19730a65f2815e, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 24789b4a51acca5499f37f9fa5401f71, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -5834,11 +5834,16 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 1889559868310154525, guid: b36306ab0e753754ba19730a65f2815e, type: 2}
     value: {fileID: 1710096722}
+  - key: {fileID: 892344111116231824, guid: 24789b4a51acca5499f37f9fa5401f71, type: 2}
+    value: {fileID: 1710096722}
   m_ExposedReferences:
     m_References:
+    - 1b26c355eae3c5b4ea319b4fc0030ba7: {fileID: 60259454}
     - 8956fac4bffac184fa1d198c888c840e: {fileID: 1252251586}
+    - b52a7a5f512faae48b810b06b660b434: {fileID: 1252251586}
     - 734046812a436fb468f55b22fabc3748: {fileID: 60259454}
     - eb1e8967d69013e44a77abea4b802c36: {fileID: 1420683477}
+    - 2e903b60d8d0063499f61ff9e8429bc6: {fileID: 1420683477}
 --- !u!4 &618190898
 Transform:
   m_ObjectHideFlags: 0
@@ -5848,7 +5853,7 @@ Transform:
   m_GameObject: {fileID: 618190896}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.1629834, y: 0.29762268, z: 2.4029057}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26516,7 +26521,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: VFX 1
+  m_text: Invoke Magic Staff
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -26525,8 +26530,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -26549,7 +26554,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -26836,7 +26841,7 @@ ParticleSystem:
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -47061,6 +47066,65 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1799173374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1799173376}
+  - component: {fileID: 1799173375}
+  m_Layer: 0
+  m_Name: Director2-Villegas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!320 &1799173375
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799173374}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: fd61f93f45e713f4593fba89b5e9acd2, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 1889559868310154525, guid: b36306ab0e753754ba19730a65f2815e, type: 2}
+    value: {fileID: 1710096722}
+  - key: {fileID: 892344111116231824, guid: 24789b4a51acca5499f37f9fa5401f71, type: 2}
+    value: {fileID: 1710096722}
+  m_ExposedReferences:
+    m_References:
+    - 1b26c355eae3c5b4ea319b4fc0030ba7: {fileID: 60259454}
+    - 8956fac4bffac184fa1d198c888c840e: {fileID: 1252251586}
+    - b52a7a5f512faae48b810b06b660b434: {fileID: 1252251586}
+    - 734046812a436fb468f55b22fabc3748: {fileID: 60259454}
+    - eb1e8967d69013e44a77abea4b802c36: {fileID: 1420683477}
+    - 2e903b60d8d0063499f61ff9e8429bc6: {fileID: 1420683477}
+--- !u!4 &1799173376
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799173374}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1904176381
 GameObject:
   m_ObjectHideFlags: 0
@@ -52108,6 +52172,7 @@ SceneRoots:
   - {fileID: 286266406}
   - {fileID: 2103540275}
   - {fileID: 618190898}
+  - {fileID: 1799173376}
   - {fileID: 26202979}
   - {fileID: 1252251589}
   - {fileID: 1232359900}
