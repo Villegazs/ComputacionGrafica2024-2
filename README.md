@@ -182,8 +182,5 @@ https://github.com/user-attachments/assets/738b6168-53d2-4955-bfa7-80cc062eac8c
 
 # Demo
 
-## Concepts
-
-### VFX 1
-![concept Demo](https://github.com/user-attachments/assets/54cc6b4c-78b1-4ef6-b0af-759ed88f5870)
+https://github.com/Villegazs/Demo-VFX
 
