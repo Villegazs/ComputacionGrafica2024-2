@@ -1,4 +1,9 @@
 # ComputacionGrafica2024-2
+
+# Demo Final
+
+https://github.com/Villegazs/Demo-VFX
+
 ## Ejercicio 1, Tornado de partículas
 ### Jacobo Prada
 ![Ejercicio1Computacion-ezgif com-crop](https://github.com/user-attachments/assets/a5f8291a-c244-40b2-b5d8-a98472841acf)
@@ -180,7 +185,5 @@ https://github.com/user-attachments/assets/738b6168-53d2-4955-bfa7-80cc062eac8c
 ![Captura de pantalla 2024-10-16 222206](https://github.com/user-attachments/assets/0b6b7d21-e62e-45e5-8bf9-ac465c1a1ef9)
 
 
-# Demo
 
-https://github.com/Villegazs/Demo-VFX
 
